@@ -7,6 +7,7 @@ body {
   background-image: url(./light_shiny_blue.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 50px;
 }
 main {
   background-color: rgb(134, 193, 230);
@@ -14,8 +15,6 @@ main {
   border-radius: 10px;
   width: 27rem;
   margin: auto;
-  margin-top: 2%;
-  margin-bottom: 2%;
   padding: 20px;
 }
 header {
