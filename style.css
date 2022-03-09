@@ -8,6 +8,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 50px;
+  min-height: 100vh;
+  max-height: 100%;
 }
 main {
   background-color: rgb(134, 193, 230);
@@ -40,29 +42,27 @@ form {
 div {
   margin: 8px;
 }
-input{
-    margin-top: 3px;
+input {
+  margin-top: 3px;
 }
-select{
-    margin-top: 3px;
+select {
+  margin-top: 3px;
 }
-textarea{
-    margin-top: 3px;
-    
+textarea {
+  margin-top: 3px;
 }
-textarea::placeholder{
-    font-size: 11px;
+textarea::placeholder {
+  font-size: 11px;
 }
 .submit {
-    background-color:rgb(12, 136, 238) ;
-    border-radius: 5px;
-    width:60px ;
-    height: 18px;
-    color: white;
-    margin: 3px 140px;
-    text-align: center;
-    
+  background-color: rgb(12, 136, 238);
+  border-radius: 5px;
+  width: 60px;
+  height: 18px;
+  color: white;
+  margin: 3px 140px;
+  text-align: center;
 }
-.submit:hover{
-    background-color: brown;
+.submit:hover {
+  background-color: brown;
 }
